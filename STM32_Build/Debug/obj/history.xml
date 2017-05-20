@@ -1,0 +1,77 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<history>
+   <processor signature="arm-none-eabi-gcc 4.8.1 mingw32 -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wall -ffunction-sections -g -O0 -c -DSTM32F407VG -DSTM32F4XX -D__ASSEMBLY__ -DUSE_STDPERIPH_DRIVER -D__FPU_USED -I..\..\..\..\..\PRACA\STM_PID_SIM -I..\..\..\..\..\PRACA\STM_PID_SIM\uc\cmsis_lib -I..\..\..\..\..\PRACA -I..\..\..\..\..\PRACA\STM_PID_SIM\uc\usb_conf -I..\..\..\..\..\PRACA\STM_PID_SIM\uc\usb_lib -I..\..\..\..\..\PRACA\STM_PID_SIM\uc\cmsis -I..\..\..\..\..\PRACA\STM_PID_SIM\uc\cmsis_boot -I..\..\..\..\..\PRACA\STM_PID_SIM\uc\cmsis_lib\include -I..\..\..\..\..\PRACA\STM_PID_SIM\uc -I..\..\..\..\..\PRACA\STM_PID_SIM\uc\usb_lib\core -I..\..\..\..\..\PRACA\STM_PID_SIM\uc\usb_lib\cdc -I..\..\..\..\..\PRACA\STM_PID_SIM\uc\usb_lib\otg">
+      <target file="stm32f4xx_exti.o" lastModified="14d4ce65a68">
+         <source file="..\..\..\cmsis_lib\source\stm32f4xx_exti.c" lastModified="140dd9ba9c8"/>
+      </target>
+      <target file="stm32f4xx_gpio.o" lastModified="14d4ce6528b">
+         <source file="..\..\..\cmsis_lib\source\stm32f4xx_gpio.c" lastModified="140dd9ba9c8"/>
+      </target>
+      <target file="usbd_core.o" lastModified="14d4ce64d24">
+         <source file="..\..\..\usb_lib\core\usbd_core.c" lastModified="140dd9ba9c8"/>
+      </target>
+      <target file="usbd_desc.o" lastModified="14d4ce651c7">
+         <source file="..\..\..\usb_conf\usbd_desc.c" lastModified="140dd9ba9c8"/>
+      </target>
+      <target file="usbd_cdc_core.o" lastModified="14d4ce6590b">
+         <source file="..\..\..\usb_lib\cdc\usbd_cdc_core.c" lastModified="140dd9ba9c8"/>
+      </target>
+      <target file="usbd_cdc_vcp.o" lastModified="14d4ce65350">
+         <source file="..\..\..\usb_lib\cdc\usbd_cdc_vcp.c" lastModified="140dd9ba9c8"/>
+      </target>
+      <target file="usbd_ioreq.o" lastModified="14d4ce65ca6">
+         <source file="..\..\..\usb_lib\core\usbd_ioreq.c" lastModified="140dd9ba9c8"/>
+      </target>
+      <target file="startup_stm32f4xx.o" lastModified="14d4ce64c5d">
+         <source file="..\..\..\cmsis_boot\startup\startup_stm32f4xx.c" lastModified="14cb7ca9a98"/>
+      </target>
+      <target file="stm32f4xx_tim.o" lastModified="14d4ce65e76">
+         <source file="..\..\..\cmsis_lib\source\stm32f4xx_tim.c" lastModified="14d20c61c97"/>
+      </target>
+      <target file="stm32f4xx_adc.o" lastModified="14d4ce65114">
+         <source file="..\..\..\cmsis_lib\source\stm32f4xx_adc.c" lastModified="14d20c67e28"/>
+      </target>
+      <target file="system_stm32f4xx.o" lastModified="14d4ce653e7">
+         <source file="..\..\..\cmsis_boot\system_stm32f4xx.c" lastModified="140dd9ba9c8"/>
+      </target>
+      <target file="usb_bsp.o" lastModified="14d4ce6563b">
+         <source file="..\..\..\usb_conf\usb_bsp.c" lastModified="140dd9ba9c8"/>
+      </target>
+      <target file="misc.o" lastModified="14d4ce65b10">
+         <source file="..\..\..\cmsis_lib\source\misc.c" lastModified="140dd9ba9c8"/>
+      </target>
+      <target file="stm32f4xx_dma.o" lastModified="14d4ce6557e">
+         <source file="..\..\..\cmsis_lib\source\stm32f4xx_dma.c" lastModified="14d257ae06d"/>
+      </target>
+      <target file="usbd_req.o" lastModified="14d4ce65737">
+         <source file="..\..\..\usb_lib\core\usbd_req.c" lastModified="140dd9ba9c8"/>
+      </target>
+      <target file="stm32f4xx_rng.o" lastModified="14d4ce659c4">
+         <source file="..\..\..\cmsis_lib\source\stm32f4xx_rng.c" lastModified="14d2f3a9723"/>
+      </target>
+      <target file="usb_dcd_int.o" lastModified="14d4ce65843">
+         <source file="..\..\..\usb_lib\otg\usb_dcd_int.c" lastModified="140dd9ba9c8"/>
+      </target>
+      <target file="usb_dcd.o" lastModified="14d4ce65bf5">
+         <source file="..\..\..\usb_lib\otg\usb_dcd.c" lastModified="140dd9ba9c8"/>
+      </target>
+      <target file="stm32f4xx_rcc.o" lastModified="14d4ce65007">
+         <source file="..\..\..\cmsis_lib\source\stm32f4xx_rcc.c" lastModified="140dd9ba9c8"/>
+      </target>
+      <target file="usb_core.o" lastModified="14d4ce64a59">
+         <source file="..\..\..\usb_lib\otg\usb_core.c" lastModified="140dd9ba9c8"/>
+      </target>
+      <target file="syscalls.o" lastModified="14d4ce654a8">
+         <source file="..\..\..\syscalls\syscalls.c" lastModified="14d248f355c"/>
+      </target>
+      <target file="usbd_usr.o" lastModified="14d4ce64af5">
+         <source file="..\..\..\usb_conf\usbd_usr.c" lastModified="140dd9ba9c8"/>
+      </target>
+      <target file="main.o" lastModified="14d591396b7">
+         <source file="..\..\..\main.c" lastModified="14d59138663"/>
+      </target>
+      <target file="stm32f4xx_usart.o" lastModified="14d4ce64bef">
+         <source file="..\..\..\cmsis_lib\source\stm32f4xx_usart.c" lastModified="14cb85fe57a"/>
+      </target>
+   </processor>
+</history>
