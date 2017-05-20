@@ -15,4 +15,4 @@ Features:
 
 Check this video to see how it works: [STM32F4 Discovery + NI LabView ](https://www.youtube.com/watch?v=DZl_jsHc-Uw)
 
-To setup project with VCP see here: [STM32DiscoveryVCP](https://github.com/xenovacivus/STM32DiscoveryVCP)
+To setup project with VCP see here: [STM32DiscoveryVCP](https://github.com/xenovacivus/STM32DiscoveryVCP) 
